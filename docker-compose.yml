@@ -2,8 +2,6 @@ version: "3.0"
 services:
   web:
     image: nginx
-    volumes:
-     - ./templates:/etc/nginx/templates
     ports:
      - "8090:80"
     environment:
