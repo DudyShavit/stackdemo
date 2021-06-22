@@ -3,7 +3,7 @@ services:
   web:
     image: nginx
     deploy:
-      replicas: 6
+      replicas: 2
       placement:
         max_replicas_per_node: 1
     ports:
