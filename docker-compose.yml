@@ -1,10 +1,9 @@
-version: "3.0"
-
-services:
-  web:
-    image: dudysh/stackdemo
-    build: .
-    ports:
-      - "8000:8000"
-  redis:
-    image: redis:alpine
+web:
+  image: nginx
+  volumes:
+   - ./templates:/etc/nginx/templates
+  ports:
+   - "8080:80"
+  environment:
+   - NGINX_HOST=foobar.com
+   - NGINX_PORT=80
