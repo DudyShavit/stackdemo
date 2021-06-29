@@ -2,7 +2,7 @@ version: "3.3"
 
 services:
   web:
-    image: dudysh/stackdemo
+    image: your-dockerhub-id/stackdemo
     build: .
     ports:
       - "8000:8000"
