@@ -28,14 +28,15 @@
 ## Pull and Test the stackdemo app on the manager
 1. clone the app from  github
 	* git clone https://github.com/DudyShavit/stackdemo.git
-2. cd stackdemo
-3. install docker-compose
+2. edit and change counting-docker-compose.yml to use your docker hub id
+3. cd stackdemo
+4. install docker-compose
 	* sudo apt install docker-compose
-4. run the application locally on the manager host 
+5. run the application locally on the manager host 
 	* sudo docker-compose -f counting-docker-compose.yml up 
-5. access it from your local PC browser on the port 8000
+6. access it from your local PC browser on the port 8000
 	* you can see that this app counting every access 
-6. remove the application 
+7. remove the application 
 * sudo docker-compose -f counting-docker-compose.yml down
 
 ## Run the stackdemo app on the swarm cluster
