@@ -29,7 +29,7 @@
 5. check it again using the swarm visualizer 
 	1. run it on your manager
 		* docker run -it -d -p 8080:8080 -v /var/run/docker.sock:/var/run/docker.sock dockersamples/visualizer
-  2. open the 8080 port on the ec2 instance manager
+  	2. open the 8080 port on the ec2 instance manager
 	3. access it from your local PC browser on port 8080
 
 ## Pull and Test the stackdemo app on the manager
