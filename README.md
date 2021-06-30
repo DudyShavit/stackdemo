@@ -1,4 +1,11 @@
-# Docker Swarm Drills
+# Exam Part 3 - Docker
+
+## Instructions
+1. The Exam time : 1.5 Hour
+2. The Exam is personal
+3. please follow the instrucions 
+4. please upload anapshot of every stage compeletion 
+5. Good Luck!
 
 ## Setup
 1. Create 2 AWS instances (Free tier)
