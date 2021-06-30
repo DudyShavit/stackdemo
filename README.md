@@ -49,7 +49,7 @@
 ## Run the stackdemo app on the swarm cluster
 
 1. Deploy a new stack:
-	 docker stack deploy mystack -c counting-docker-compose.yml
+	 * docker stack deploy mystack -c counting-docker-compose.yml
 2. use the docker swarm visualizer to show swarm status 
 3. access it again from your local PC browser on the port 8000 
 
